@@ -1,0 +1,40 @@
+
+
+body{
+    background-color: crimson;
+    text-align: center;
+}
+
+table{
+    border: 20px solid rgb(rgb(8, 2, 44), rgb(2, 14, 126), rgb(0, 0, 120));
+    border-radius: 2px;
+    font-family: times new roman;
+    letter-spacing: 1px;
+    width: 50%;
+
+}
+
+thead{
+    background-color: darkblue;
+}
+ th, td{
+    border: 2px solid;
+    padding: 8px 10px;
+ }
+
+ tbody{
+    background-color: cadetblue;
+ }
+ div{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -60%); 
+    width: 300px;
+    height: 200px;
+ }
+
+ tfoot{
+    background-color: brown;
+    text-align: center;
+ }
